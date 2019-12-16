@@ -44,6 +44,8 @@ public class Logic
      * This is the method that will (eventually) get called when the
      * on-screen button labeled 'Process...' is pressed.
      */
+
+    // the 'main' method that checks the size of the diamond and then calls the appropriate method
     public void process(int size) {
 
         if (size == 1) {
@@ -53,6 +55,8 @@ public class Logic
         }
     }
 
+    // easy way to print a diamond size of one
+    // ¯\_(ツ)_/¯
     private void diamondLessThanTwo() {
         mOut.println("+--+\n|<>|\n+--+");
     }
